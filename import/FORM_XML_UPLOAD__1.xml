@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:mgb="http://www.ibge.gov.br/2014/mgb" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd &#xA;&#x9;&#x9;http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>73cf0722-0a81-4f34-93ff-6cce7bf5b8b7</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="por" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Laura Coelho de Andrade;Priscila De Lima e Silva; Afonso de Paula dos Santos</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Universidade Federal de Viçosa</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>(31)3899-2740</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Av.P.H.Rolfs-s/n</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Viçosa</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>MG</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>36570-000</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Brazil</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>afonso.santos@ufv.br</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2018-04-12T16:18:02</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>SIRGAS 2000-UTM zona 23S</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Área Estação Meteorológica</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2017-10-01</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="creation" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>1ª</gco:CharacterString>
+          </gmd:edition>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Arquivo vetorial gerado a partir da compilação de produtos cartográficos do campus Viçosa da Universidade Federal de Viçosa. Este compõe a base estruturada do campus da UFV e corresponde à área estação meteorológica. Esta classe foi definida com base no modelo conceitual proposto na ET-EDGV/2016.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Compor uma base cartográfica que represente os elementos espaciais do campus Viçosa da Universidade Federal de Viçosa.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>João Pedro Amorim Matta;Marconi Martins Cunha;Afonso de Paula dos Santos</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Universidade Federal de Viçosa</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:voice>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>afonso.santos@ufv.br</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="author" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>gecbareaestmedfenomenospol.shp</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>estação meteorológica;base cartográfica vetorial; UFV</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeListValue="restricted" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="restricted" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>10000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>por</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d41274e515a1053982">
+                  <gml:beginPosition />
+                  <gml:endPosition />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-42.86431</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-42.86381</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-20.762981</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-20.76219</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation gco:nilReason="missing">
+        <gco:CharacterString />
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL />
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://localhost:8080/geonetwork/srv/en/resources.get?uuid=73cf0722-0a81-4f34-93ff-6cce7bf5b8b7&amp;fname=&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type="" />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL />
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>O arquivo vetorial foi obtido por compilação de dados cartográficos e vetorização de feições a partir de ortoimagens.
+Sendo os arquivos vetoriais: levantamentos topográficos fornecidos pela Pró-reitoria de Administração (PAD) da UFV.
+E ortoimagens:
+- Ortoimagem VANT da região central do Campus Viçosa da UFV, com resolução espacial média de 0,10 metros.
+Longitude Limítrofe Oeste: -42,88°
+Longitude Limítrofe Este: -42,85°
+Latitude Limítrofe Norte: - 20,75°
+Latitude Limítrofe Sul: - 20,78°
+- Ortoimagem Ikonos II (Geo Ortho Kit), com resolução espacial de 1 metro (fusionada).
+Longitude Limítrofe Oeste: - 42,92°
+Longitude Limítrofe Este: - 42,82°
+Latitude Limítrofe Norte: - 20,73°
+Latitude Limítrofe Sul: - 20,84°
+
+Etapas do Processo: Obtenção de Insumos; Preparação, análise e avaliação dos insumos obtidos; Edição; Compilação direta.
+*Obtenção dos insumos:
+- Levantamento topográfico do campus Viçosa em formato DWG. Sem informações sobre o referencial geodésico adotado, porém com a geometria de feições relevantes à base.
+- Ortoimagem gerada por levantamento com VANT, que compreende a região central do campus, em formato TIFF, e referência ao SIRGAS 2000, sistema de projeções UTM, fuso 23, hemisfério sul.
+- Ortoimagem gerada pelo satélite IKONOS II, referenciada ao SIRGAS 2000, sistema de projeções UTM, fuso 23, hemisfério sul.
+*Preparação, análise e avaliação dos insumos:
+- Conversão do levantamento topográfico do formato DWG para o formato SHP (shapefile), possibilitando a manipulação num sistema de informações geográficas.
+- Homogeneização de referenciais:
+Sistema de Referência: SIRGAS 2000;
+Sistema de Projeções: UTM, fuso 23, hemisfério sul.
+- Avaliação da Acurácia Posicional da Ortoimagem
+VANT: Classe B (ET-CQDG) para escala de 1:2.000.
+IKONOS: Classe C (ET-CQDG) para escala de 1:10.000.
+*Edição:
+- Correção geométrica do levantamento topográfico.
+- Atualização e extração de feições por monorestituição, de acordo com a ET-ADGV. O critério de seleção foi para um mapeamento na escala de 1:1.000.
+*Compilação direta:
+- Estruturação da base cartográfica de acordo com a ET-EDGV.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
+
