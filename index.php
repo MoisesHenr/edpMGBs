@@ -93,6 +93,8 @@
 			<div class="col-md-4">
 				<h3>Ferramenta:</h3>
 				<label><a id="download_reSHP" style="color: black" target="_blank" href="reSHP.exe" download>Download reSHP</a></label>
+				<h3>Link do projeto GitHub:</h3>
+				<label><a style="color: black" href="https://github.com/MoisesHenr/edpMGBs">edpMGBs</a></label>
 			</div>
 		</div>
 	</div>
